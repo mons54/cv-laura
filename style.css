@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1040px;
+    height: 1280px; 
+    margin: 0 auto;
+    background-color: #DADADA;
+    font-family: 'Sackers Gothic Std';
+}
+
+.content {
+    background-color: #fff;
+    position: relative;
+    padding: 20px 30px;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Berlin Sans FB Demi';
+    margin-left: 350px;
+    margin-bottom: 30px;
+}
+
+ul {
+    padding-left: 30px;
+    list-style-type: square;
+    line-height: 1.5;
+}
+
+.date {
+   color: #45AEB1;
+   margin-right: 5px;
+}
+
+.name {
+   font-weight: bold;
+}
+
+.lieu {
+    font-style: italic;
+}
+
+.title {
+    color: #45AEB1;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.deco-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('img/fleur2.jpg') no-repeat;
+    width: 180px;
+    height: 400px;
+    background-size: cover;
+}
+
+.deco-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url('img/fleur12.jpg') no-repeat -100 250;
+    width: 400px;
+    height: 600px;
+    background-size: 100%;
+}
+
+.contact {
+    line-height: 1.5;
+}
+
+.contact .name-age {
+    margin-bottom: 5px;
+}
+
+.contact .title {
+    margin-bottom: 0;
+}
+
+.contact .age,
+.contact .permis {
+    font-style: italic;
+}
+
+.competences {
+    float: left;
+    margin-right: 30px;
+    margin-left: -30px;
+    width: 340px;
+    border-top: 1px solid #45AEB1;
+    border-right: 1px solid #45AEB1;
+    padding: 20px 30px 0 30px;
+}
+
+.competences .title-2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.competences ul {
+    margin-bottom: 20px;
+}
+
+.formation,
+.experiences {
+    padding-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 400px;
+}
+
+.formation p,
+.experiences p {
+    line-height: 1.8;
+}
