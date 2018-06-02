@@ -1,5 +1,5 @@
 {
-    "dependencies": {
-        "html-pdf": "1.0.0"
+    "devDependencies": {
+        "html-pdf": "^2.2.0"
     }
 }
